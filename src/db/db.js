@@ -6,7 +6,7 @@ import waterImg from "../images/water.png"
 import iceCreamImg from "../images/icecream.png"
 import kebabImg from "../images/kebab.png"
 
-function getData(){
+export function getData(){
     return [
         {title:"Pizza", price:17.99, Image: pizzaImg, id:1},
         {title:"Burger", price:12.99, Image: burgerImg, id:2},
@@ -14,6 +14,6 @@ function getData(){
         {title:"Kebab", price:19.99, Image: kebabImg, id:4},
         {title:"Salad", price:13.99, Image: saladImg, id:5},
         {title:"Water", price:7.99, Image: waterImg, id:6},
-        {title:"Ice cream", price:4.99, Image: iceCreamImg, id:7},
+        {title:"Ice cream", price:4.99, Image: iceCreamImg, id:7}
     ]
 }
